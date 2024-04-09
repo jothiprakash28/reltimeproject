@@ -79,7 +79,7 @@ function Phone() {
                 </div>
 
                 <div className='center_screen'>
-                    {!context.Accountscard && !context.Loanscard && ! context.DEXcard && <img className='phone_logo' src="https://reltime-super-app.netlify.app/images/phone_logo.png"style={{width:"85%", position:"relative", top:"120px", left:"20px"}}></img>}
+                    {!context.Accountscard && !context.Loanscard && ! context.DEXcard && <img className='phone_logo' src="https://reltime-super-app.netlify.app/images/phone_logo.png" alt="new"  style={{width:"85%", position:"relative", top:"120px", left:"20px"}}></img>}
                     {context.Accountscard && <div className='card-container accounts'>
                     <div className='card-header'>
                         <h3>Accounts</h3>
