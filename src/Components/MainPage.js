@@ -1,5 +1,6 @@
 // MainPage.js
 
+
 import React, { useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.css';
